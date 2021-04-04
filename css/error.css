@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div {
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+main > div > div:first-child > div {
+    background-color: rgb(20, 20, 20);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+main > div cite {
+    padding: 10px;
+    color: red;
+}
+
+main .return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+main .return:hover {
+    background-color: rgb(60, 88, 247);
+}
